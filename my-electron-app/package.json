@@ -1,0 +1,21 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello Electron!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "electron"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Sohyun Kim",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^21.2.1"
+  }
+}
