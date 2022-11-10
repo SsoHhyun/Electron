@@ -5,7 +5,10 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "bd": "cross-env NODE_ENV=production webpack --config webpack.build.config.js --mode production",
+    "package": "npm run build",
+    "postpackage": "electron-packager ./ --out=./release_builds"
   },
   "author": "SsoHhyun",
   "license": "ISC",
